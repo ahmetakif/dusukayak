@@ -135,6 +135,8 @@ int warn2 = 0;
 //CONTRIBUTIONS BY AHMET AKIF KAYA
   int diffcalc(int angle1,int angle2){
     int diff = z2 - z1;
+    Serial.print(" | fark = ");
+    Serial.println(diff);
     if (diff > limitangle){
       warn1 = 1;
       warn2 = 0;
