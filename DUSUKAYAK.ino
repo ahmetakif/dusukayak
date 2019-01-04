@@ -90,6 +90,8 @@ int warn2 = 0;
       x1 = RAD_TO_DEG * (atan2(-yAng1, -zAng1)+PI); 
       y1 = RAD_TO_DEG * (atan2(-xAng1, -zAng1)+PI); 
       z1 = RAD_TO_DEG * (atan2(-yAng1, -xAng1)+PI);
+      Serial.print(" | z1 = ");
+      Serial.println(z1); 
      }
      
      
@@ -126,6 +128,8 @@ int warn2 = 0;
       x2 = RAD_TO_DEG * (atan2(-yAng2, -zAng2)+PI); 
       y2 = RAD_TO_DEG * (atan2(-xAng2, -zAng2)+PI); 
       z2 = RAD_TO_DEG * (atan2(-yAng2, -xAng2)+PI);
+      Serial.print(" | z2 = ");
+      Serial.println(z2); 
      }
 
 //CONTRIBUTIONS BY AHMET AKIF KAYA
